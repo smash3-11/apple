@@ -4,15 +4,15 @@ let blac = document.querySelector('.blac')
 let img = document.querySelector('#img')
 btn14.onclick = ()=>{
     btn14.style.border = '3px solid #0071e3'
-    blac.classList.toggle('none')
+    blac.classList.add('none')
     btn14Max.style.border = '1px solid gray'
     blac.classList.add('none')
     img.src = 'img/deeppurple.jpg'
-}   
+} 
 
 btn14Max.onclick = ()=>{
     btn14Max.style.border = '3px solid #0071e3'
-    blac.classList.toggle('none')
+    blac.classList.add  ('none')
     btn14.style.border = '1px solid gray'
     img.src="img/deeppurple.jpg"
     blac.classList.add('none')

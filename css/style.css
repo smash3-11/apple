@@ -265,7 +265,7 @@ img {
 	width: 33px;
 	height: 33px;
 	border-radius: 50%;
-	background-color: #f7f7b9;
+	background-color: #f8f88a;
 	box-shadow:inset  0px 1px 2px #000;
 }
 .section3 .box .box_elem .bloc0 .bloc_btn .btn:nth-child(3)::after{
